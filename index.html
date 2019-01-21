@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="highlight">
+        <!-- highlight of image -->
+      </div>
+      <div id="bar">
+        <div class="status">
+          <div class="progress" title="Current loaded progress">
+            <div class="bar"></div>
+            <div class="prog"></div>
+          </div>
+          <div class="perpage" title="Images per page">
+            <input />
+          </div>
+        </div>
+        <div class="custom" title="Source of images list">
+          <button name="file" title="Select file">File</button>
+          <input name="value" placeholder="URL or file" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+          <button name="submit">GO</button>
+        </div>
+        <div class="config" title="Image effect when mouse out">
+          <div data-type="blur" title="Blur effect">
+            <input type="range" />
+          </div>
+          <div data-type="gray" title="Gray effect">
+            <input type="range" />
+          </div>
+        </div>
+      </div>
+      <div id="page">
+        <!-- list of pages -->
+      </div>
+      <div id="gallery">
+        <div class="list">
+          <!-- list of images -->
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
